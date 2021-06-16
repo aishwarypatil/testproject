@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean id="t2" class="com.constructor_injection.demo1.Triangle">
+<constructor-arg  value="round"/>
+
+</bean>
+<bean id="t3" class="com.constructor_injection.demo1.Triangle">
+<constructor-arg  type="int" value="20"/>
+
+
+</bean>
+<bean id="t4" class="com.constructor_injection.demo1.Triangle">
+<constructor-arg  index="0" value="square"/>
+<constructor-arg  index="1" value="30"/>
+
+</bean>
+</beans>
